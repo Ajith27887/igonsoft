@@ -1,0 +1,215 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.navigation {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40% 60%;
+      grid-template-columns: 40% 60%;
+  height: 30px;
+  width: 100%;
+}
+
+span {
+  margin-left: 20px;
+}
+
+.bi {
+  margin-left: 20px;
+}
+
+.img2 {
+  margin-top: 80px;
+  width: 100%;
+  background-image: url("https://livedemo00.template-help.com/wt_62267_v8/prod-18906-buy&sell/images/parallax-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.contact a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #000;
+}
+
+.h2 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.service {
+  height: auto;
+  width: 100%;
+  background-color: #fafafa;
+  margin-top: 30px;
+}
+
+.box {
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  padding: 30px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 33.3% 33.3% 33.3%;
+      grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+@media screen and (max-width: 992px) {
+  .box {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .box {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.box1, .box2, .box3 {
+  margin-right: 50px;
+}
+
+.image1 img:hover {
+  -webkit-box-shadow: 0 0 20px 5px rgba(134, 134, 134, 0.5);
+          box-shadow: 0 0 20px 5px rgba(134, 134, 134, 0.5);
+}
+
+.image2 img:hover {
+  -webkit-box-shadow: 0 0 20px 5px rgba(134, 134, 134, 0.5);
+          box-shadow: 0 0 20px 5px rgba(134, 134, 134, 0.5);
+}
+
+.image3 img:hover {
+  -webkit-box-shadow: 0 0 20px 5px rgba(134, 134, 134, 0.5);
+          box-shadow: 0 0 20px 5px rgba(134, 134, 134, 0.5);
+}
+
+.para1 {
+  margin-top: 20px;
+}
+
+.about {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.box4 {
+  max-width: 100%;
+  margin-top: 50px;
+  height: 400px;
+  background-image: url(https://livedemo00.template-help.com/wt_62267_v8/prod-18906-buy&sell/images/bg-image-8.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.button1 {
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  border: none;
+  width: 150px;
+  height: 50px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 100%;
+}
+
+.button1:hover {
+  background-color: #9370DB;
+  color: #fff;
+}
+
+.quote {
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+}
+
+.image4 {
+  background-image: url("https://livedemo00.template-help.com/wt_62267_v8/prod-18906-buy&sell/images/bg-image-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.field {
+  padding: 50px;
+  margin-top: 50px;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+}
+
+.button2 {
+  margin-top: 30px;
+  width: 130px;
+  border: none;
+  height: 50px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #9370DB;
+  border-radius: 50px;
+  position: relative;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .quote {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
+  .image4 {
+    background-image: url("https://livedemo00.template-help.com/wt_62267_v8/prod-18906-buy&sell/images/bg-image-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+  }
+}
+
+footer {
+  width: 100%;
+  height: 500px;
+  background-color: #000;
+  color: #fff;
+}
+/*# sourceMappingURL=web.css.map */
