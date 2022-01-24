@@ -3,15 +3,6 @@ body {
   margin: 0;
 }
 
-.navigation {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 40% 60%;
-      grid-template-columns: 40% 60%;
-  height: 30px;
-  width: 100%;
-}
-
 span {
   margin-left: 20px;
 }
@@ -20,17 +11,31 @@ span {
   margin-left: 20px;
 }
 
+.navigation-bar {
+  height: 100px;
+}
+
 .img2 {
-  margin-top: 80px;
-  width: 100%;
-  background-image: url("https://livedemo00.template-help.com/wt_62267_v8/prod-18906-buy&sell/images/parallax-2.jpg");
+  max-width: 100%;
+  height: 500px;
+  background-image: url(https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825__480.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .contact {
-  margin-top: auto;
-  margin-bottom: auto;
+  font-size: large;
+}
+
+@media screen and (max-width: 768px) {
+  .contact a {
+    display: block;
+    text-align: center;
+  }
+  .img-fluid {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
 }
 
 .contact a {
@@ -54,48 +59,19 @@ span {
 .box {
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   padding: 30px;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 33.3% 33.3% 33.3%;
-      grid-template-columns: 33.3% 33.3% 33.3%;
 }
 
-@media screen and (max-width: 992px) {
-  .box {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 50% 50%;
-        grid-template-columns: 50% 50%;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .box {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 100%;
-        grid-template-columns: 100%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
-
-.box1, .box2, .box3 {
-  margin-right: 50px;
-}
-
-.image1 img:hover {
+.img:hover {
   -webkit-box-shadow: 0 0 20px 5px rgba(134, 134, 134, 0.5);
           box-shadow: 0 0 20px 5px rgba(134, 134, 134, 0.5);
 }
 
-.image2 img:hover {
+.img:hover {
   -webkit-box-shadow: 0 0 20px 5px rgba(134, 134, 134, 0.5);
           box-shadow: 0 0 20px 5px rgba(134, 134, 134, 0.5);
 }
 
-.image3 img:hover {
+.img:hover {
   -webkit-box-shadow: 0 0 20px 5px rgba(134, 134, 134, 0.5);
           box-shadow: 0 0 20px 5px rgba(134, 134, 134, 0.5);
 }
@@ -146,7 +122,7 @@ span {
 
 .quote {
   width: 100%;
-  height: auto;
+  height: 400px;
   margin-top: 100px;
   display: -ms-grid;
   display: grid;
@@ -154,16 +130,21 @@ span {
       grid-template-columns: 50% 50%;
 }
 
-.image4 {
-  background-image: url("https://livedemo00.template-help.com/wt_62267_v8/prod-18906-buy&sell/images/bg-image-3.jpg");
+.img1 {
+  background-image: url(https://i.pinimg.com/736x/97/cc/5d/97cc5ddd127fe5b0802d2012812fe3e5.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
-.field {
-  padding: 50px;
-  margin-top: 50px;
+@media screen and (max-width: 992px) {
+  .img1 {
+    background-image: url(https://i.pinimg.com/736x/97/cc/5d/97cc5ddd127fe5b0802d2012812fe3e5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    max-width: 100%;
+    height: 200px;
+    margin-top: 100px;
+  }
 }
 
 input {
@@ -184,32 +165,14 @@ input {
   position: relative;
 }
 
-textarea {
-  width: 100%;
-  padding: 10px;
-}
-
-@media screen and (max-width: 992px) {
-  .quote {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 100%;
-        grid-template-columns: 100%;
-  }
-  .image4 {
-    background-image: url("https://livedemo00.template-help.com/wt_62267_v8/prod-18906-buy&sell/images/bg-image-3.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 400px;
-  }
-}
-
 footer {
   width: 100%;
-  height: 500px;
-  background-color: #000;
-  color: #fff;
+  height: auto;
+  font-size: large;
+}
+
+.contacts {
+  text-decoration: none;
+  list-style-type: none;
 }
 /*# sourceMappingURL=web.css.map */
